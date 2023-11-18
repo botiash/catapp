@@ -1,0 +1,53 @@
+{
+  "Arabian Peninsula": [
+    "Arabian Mau"
+  ],
+  "Australia": [
+    "Australian Mist"
+  ],
+  "Brazil": [
+    "Brazilian Shorthair"
+  ],
+  "Burma and Thailand": [
+    "Burmese"
+  ],
+  "Ethiopia": [
+    "Abyssinian"
+  ],
+  "France": [
+    "Chausie",
+    "Chartreux"
+  ],
+  "Greece": [
+    "Aegean"
+  ],
+  "United Kingdom": [
+    "Burmilla",
+    "British Longhair",
+    "British Shorthair",
+    "Asian Semi-longhair",
+    "British Semi-longhair"
+  ],
+  "United States": [
+    "Bambino",
+    "American Curl",
+    "American Bobtail",
+    "American Wirehair",
+    "Chantilly-Tiffany",
+    "American Shorthair",
+    "California Spangled"
+  ],
+  "developed in France (founding stock from Burma)": [
+    "Birman"
+  ],
+  "developed in the United Kingdom (founding stock from Asia)": [
+    "Asian"
+  ],
+  "developed in the United States (founding stock from Asia)": [
+    "Bengal",
+    "Bombay"
+  ],
+  "developed in the United States (founding stock from Thailand)": [
+    "Balinese"
+  ]
+}
