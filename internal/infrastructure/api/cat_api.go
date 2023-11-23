@@ -3,7 +3,7 @@ package api
 import (
 	"encoding/json"
 	"fmt"
-	"io"
+	"io/ioutil"
 	"net/http"
 
 	"github.com/botiash/catapp/internal/app/model"
@@ -19,29 +19,35 @@ func NewCatAPI() *CatAPI {
 }
 
 func (api *CatAPI) FetchBreeds() ([]model.Cat, error) {
-	response, err := http.Get(catAPIURL)
-	if err != nil {
-		return nil, err
+	var allBreeds []model.Cat
+	page := 1
+	for {
+		response, err := http.Get(fmt.Sprintf("%s?page=%d", catAPIURL, page))
+		if err != nil {
+			return nil, err
+		}
+		defer response.Body.Close()
+		if response.StatusCode != http.StatusOK {
+			return nil, fmt.Errorf("API request failed with status code: %d", response.StatusCode)
+		}
+		body, err := ioutil.ReadAll(response.Body)
+		if err != nil {
+			return nil, err
+		}
+		var breedsResponse struct {
+			Data  []model.Cat `json:"data"`
+			Total int         `json:"total"`
+		}
+		err = json.Unmarshal(body, &breedsResponse)
+		if err != nil {
+			return nil, err
+		}
+		allBreeds = append(allBreeds, breedsResponse.Data...)
+		if len(allBreeds) >= breedsResponse.Total {
+			break
+		}
+		page++
 	}
-	defer response.Body.Close()
 
-	if response.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("API request failed with status code: %d", response.StatusCode)
-	}
-
-	body, err := io.ReadAll(response.Body)
-	if err != nil {
-		return nil, err
-	}
-
-	var breedsResponse struct {
-		Data []model.Cat `json:"data"`
-	}
-
-	err = json.Unmarshal(body, &breedsResponse)
-	if err != nil {
-		return nil, err
-	}
-
-	return breedsResponse.Data, nil
+	return allBreeds, nil
 }

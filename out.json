@@ -1,9 +1,18 @@
 {
+  "": [
+    "Napoleon",
+    "Oriental Bicolor",
+    "Oriental Longhair",
+    "Oriental Shorthair",
+    "Dwarf cat, or Dwelf",
+    "Colorpoint Shorthair"
+  ],
   "Arabian Peninsula": [
     "Arabian Mau"
   ],
   "Australia": [
-    "Australian Mist"
+    "Australian Mist",
+    "Russian White, Black and Tabby"
   ],
   "Brazil": [
     "Brazilian Shorthair"
@@ -11,37 +20,159 @@
   "Burma and Thailand": [
     "Burmese"
   ],
+  "Canada": [
+    "Sphynx",
+    "Foldex[4]",
+    "Tonkinese"
+  ],
+  "China": [
+    "Dragon Li"
+  ],
+  "Cyprus": [
+    "Cyprus"
+  ],
+  "East Germany": [
+    "German Rex"
+  ],
+  "Eastern Russia,Japan": [
+    "Kurilian Bobtail, or Kuril Islands Bobtail"
+  ],
+  "Egypt": [
+    "Egyptian Mau"
+  ],
   "Ethiopia": [
     "Abyssinian"
   ],
+  "Europe": [
+    "PerFoldæ(Experimental Breed - WCF)"
+  ],
+  "Finland and Sweden": [
+    "European Shorthair"
+  ],
   "France": [
     "Chausie",
-    "Chartreux"
+    "Chartreux",
+    "Serrade petit"
+  ],
+  "Greater Iran": [
+    "Persian (Traditional Persian Cat)"
   ],
   "Greece": [
     "Aegean"
   ],
+  "Indonesia": [
+    "Raas"
+  ],
+  "Iran (Persia)": [
+    "Persian (Modern Persian Cat)"
+  ],
+  "Japan": [
+    "Japanese Bobtail"
+  ],
+  "Kenya": [
+    "Sokoke"
+  ],
+  "Korea": [
+    "Korean Bobtail"
+  ],
+  "Norway": [
+    "Norwegian Forest cat"
+  ],
+  "Russia": [
+    "Siberian",
+    "Peterbald",
+    "Russian Blue",
+    "Mekong Bobtail",
+    "Donskoy, or Don Sphynx"
+  ],
+  "Singapore": [
+    "Singapura"
+  ],
+  "Somalia": [
+    "Somali"
+  ],
+  "Thailand": [
+    "Thai",
+    "Korat",
+    "Korn Ja",
+    "Siamese",
+    "Suphalak",
+    "Sam Sawet",
+    "Khao Manee",
+    "Thai Lilac"
+  ],
+  "Turkey": [
+    "Turkish Angora"
+  ],
+  "Ukraine": [
+    "Ukrainian Levkoy"
+  ],
   "United Kingdom": [
     "Burmilla",
+    "Havana Brown",
     "British Longhair",
     "British Shorthair",
     "Asian Semi-longhair",
     "British Semi-longhair"
   ],
+  "United Kingdom (England)": [
+    "Devon Rex",
+    "Cornish Rex"
+  ],
+  "United Kingdom (Isle of Man)": [
+    "Manx",
+    "Cymric or Manx Longhair"
+  ],
+  "United Kingdom (Scotland)": [
+    "Scottish Fold"
+  ],
   "United States": [
+    "Lykoi",
+    "LaPerm",
+    "Toyger",
+    "Ocicat",
+    "Minskin",
     "Bambino",
+    "Ragdoll",
+    "Cheetoh",
+    "Munchkin",
+    "Nebelung",
+    "Javanese",
+    "Snowshoe",
+    "Savannah",
+    "Serengeti",
+    "Pixie-bob",
+    "Ragamuffin",
+    "Oregon Rex",
+    "Highlander",
+    "Maine Coon",
+    "Ojos Azules",
+    "Selkirk Rex",
     "American Curl",
+    "Exotic Shorthair",
     "American Bobtail",
-    "American Wirehair",
     "Chantilly-Tiffany",
+    "American Wirehair",
     "American Shorthair",
     "California Spangled"
+  ],
+  "United States (New York)": [
+    "York Chocolate"
+  ],
+  "United States/United Kingdom": [
+    "Himalayan, or Colorpoint Persian"
+  ],
+  "Western Russia": [
+    "Karelian Bobtail"
   ],
   "developed in France (founding stock from Burma)": [
     "Birman"
   ],
   "developed in the United Kingdom (founding stock from Asia)": [
     "Asian"
+  ],
+  "developed in the United Kingdom (founding stock from Turkey)": [
+    "Turkish Van"
   ],
   "developed in the United States (founding stock from Asia)": [
     "Bengal",
